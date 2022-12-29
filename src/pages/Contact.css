@@ -1,0 +1,96 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+.free{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #FFFFFF;
+
+}
+.social{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #FFFFFF;
+}
+.be{
+    color: #FFF;
+    text-decoration: none;
+}
+.be:hover{
+    color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.resume{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+text-decoration: none;
+color: #FFFFFF;
+cursor: pointer;
+}
+    .resume:hover{
+color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.footer h1{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #FFFFFF;
+padding-top: 20px;
+padding-bottom: 0px;
+}
+@media screen and (max-width: 480px) {
+    .contact{
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
+   text-align: center;
+   padding-bottom: 0px;
+  }
+  .free{
+    padding-bottom: 20px;
+  }
+  .social{
+     padding-bottom: 20px;
+  }
+}
+@media screen and (max-width:940px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: 500;
+font-size: 13px;
+color: #FFFFFF;
+    }
+    .footer h1{
+        font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+color: #FFFFFF;
+    padding-top: 0px;
+padding-bottom: 0px;
+    }
+}

@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from "./components/Navbar";
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Project from './pages/Project';
+import  { useState, useEffect } from 'react';
+import Cursor from "./components/Cursor";
+
 
 function App() {
+   const [scaling, setscaling] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div >
+        <Cursor scaling={scaling} />
+   <Navbar/>
+    <About/>
+    <Project/>
+    <Contact/>
+
+      </div>
   );
 }
 

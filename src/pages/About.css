@@ -1,0 +1,236 @@
+
+.about{
+    top: 1100px;
+    color: white;
+}
+.line{
+width: 1150px;
+left: 60px;
+margin-top: 50px;
+border: .5px solid #FFFFFF;
+
+}
+.me{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+padding-top: 20px;
+font-size: 25px;
+color: #FFFFFF;
+}
+.me:hover{
+color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+
+}
+/* for selected projects */
+.mesel{
+    font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+padding-top: 20px;
+font-size: 25px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.mesel:hover{
+color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+}
+
+.self{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 74px;
+color: #FFFFFF;
+}
+.ife{
+    padding-top: 40px;
+  width: 700px;
+height: 1012px;
+border-radius: 50px 0 50px 0;
+    background: url("../assets/ife.png")  center center/cover;
+}
+.hi{
+font-family: 'Clash Display';
+font-style: normal;
+padding-top: 60px;
+font-weight:400;
+font-size: 30px;
+color: #FFFFFF;
+}
+.i{
+left: 404px;
+font-family: 'Clash Display';
+padding-top: 30px;
+padding-left:550px;
+font-weight:400;
+font-size: 30px;
+color: #FFFFFF;
+
+}
+.my{
+font-family: 'Clash Display';
+font-style: normal;
+padding-top: 30px;
+font-weight:400;
+font-size: 30px;
+color: #FFFFFF;
+}
+.set{
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 85px;
+padding-left: 500px;
+color: #FFFFFF;
+}
+
+/* Tablet */
+@media screen and (max-width:940px) {
+    .line {
+width: 200px;
+margin: auto;
+margin-top: 50px;
+border: 1px solid #FFFFFF;
+    margin-bottom: 20px;  
+    }
+    .me{
+        text-align: center;
+        font-size: 30px;
+    }
+    .me:hover{
+color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+   .mesel{
+        text-align: center;
+        font-size: 30px;
+     
+    }
+    .mesel:hover{
+color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+}
+    .self{
+        padding-top: 30px;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+    }
+    .ife{
+        margin: auto;
+    padding-top: 40px;
+  width: 50%;
+height: 550px;
+border-radius: 50px 0 50px 0;
+    background: url("../assets/ife.png")  center center/cover;
+    }
+    .hi{
+font-weight: 400;
+font-size: 23px;
+text-align: center;
+
+    }
+    .i{
+        font-weight: 400;
+font-size: 23px;
+text-align: center;
+left: 404px;
+font-family: 'Clash Display';
+padding-top: 30px;
+padding-left:0px;
+
+    }
+    .my{
+        font-weight: 400;
+font-size: 23px;
+text-align: center;
+    }
+    .set{
+        padding-top: 30px;
+                font-weight: 400;
+font-size: 50px;
+text-align: center;
+left: 404px;
+font-family: 'Clash Display';
+padding-left:0px;
+    }
+}
+/* Mobile */
+@media screen and (max-width:480px) {
+    .line {
+width: 200px;
+margin: auto;
+margin-top: 50px;
+border: 1px solid #FFFFFF;
+    margin-bottom: 20px;  
+    }
+    .me{
+        text-align: center;
+        font-size: 30px;
+    }
+    .me:hover{
+color: yellowgreen;
+cursor: pointer;
+  transition: all 0.5s ease-in-out;
+display: inline-block;
+}
+  
+   
+    .self{
+        padding-top: 30px;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+    }
+    .ife{
+        margin: auto;
+    padding-top: 40px;
+  width: 50%;
+height: 550px;
+border-radius: 50px 0 50px 0;
+    background: url("../assets/ife.png")  center center/cover;
+    }
+    .hi{
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+
+    }
+    .i{
+        font-weight: 400;
+font-size: 17px;
+text-align: center;
+left: 404px;
+font-family: 'Clash Display';
+padding-top: 30px;
+padding-left:0px;
+
+    }
+    .my{
+        font-weight: 400;
+font-size: 17px;
+text-align: center;
+    }
+    .set{
+        padding-top: 30px;
+                font-weight: 400;
+font-size: 30px;
+text-align: center;
+left: 404px;
+font-family: 'Clash Display';
+padding-left:0px;
+    }
+}
