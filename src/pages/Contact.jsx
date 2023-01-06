@@ -26,7 +26,7 @@ const Contact = () => {
                     <a className='be' href='mailto:oladeniifeoluwa123@gmail.com' alt="behance">GMAIL,</a><br></br>
                     <a className='be' href='https://twitter.com/OladeniIfeoluwa' alt="twitter">TWITTER.</a>
                 </div>
-                <a className='resume' href='#' alt="Resume" download>
+                <a className='resume' href='https://drive.google.com/file/d/1EQBICOTjVsUUYAmsM1V1HJNsHS7tsuey/view?usp=share_link' alt="Resume" download>
                     DOWNLOAD RESUME
                 </a>
             </div>
@@ -36,11 +36,11 @@ const Contact = () => {
                     DESIGNED AND DEVELOPED BY ME
                 </h1>
                 <h1>
-                    IFEOLUWA OLADENI. C 2022
+                    IFEOLUWA OLADENI. C 2023
                 </h1>
             </div>
         </div>
     )
 }
 
-export default Contact
+export default Contact;
