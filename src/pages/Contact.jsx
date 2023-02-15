@@ -26,7 +26,7 @@ const Contact = () => {
                     <a className='be' href='mailto:oladeniifeoluwa123@gmail.com' alt="behance">GMAIL,</a><br></br>
                     <a className='be' href='https://twitter.com/OladeniIfeoluwa' alt="twitter">TWITTER.</a>
                 </div>
-                <a className='resume' href='https://drive.google.com/file/d/1EQBICOTjVsUUYAmsM1V1HJNsHS7tsuey/view?usp=share_link' alt="Resume" download>
+                <a className='resume' href='https://drive.google.com/file/d/1pnDxfBaaWE4X7jpDJ4BG5krzbqE4LS0L/view?usp=share_link' alt="Resume" download>
                     DOWNLOAD RESUME
                 </a>
             </div>
