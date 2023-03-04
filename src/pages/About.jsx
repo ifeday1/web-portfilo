@@ -89,8 +89,62 @@ const About = () => {
                     className='set'>
                     Communication
                     <br></br>
-                    Teamplayer
-                    <br></br>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Team player
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Empathy
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Creative
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Critical thinker
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Figma
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Adobe Illustrator
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Html, CSS
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Javascript
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Typescript
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        ReactJS, NextJS
+                    </div>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        Gsap...
+                    </div>
+                    {/*                
                     Empathy
                     <br></br>
                     Creative
@@ -111,7 +165,7 @@ const About = () => {
                     <br></br>
                     ReactJS, NextJS
                     <br></br>
-                    Gsap...
+                    Gsap... */}
                 </div>
             </div>
         </div>
