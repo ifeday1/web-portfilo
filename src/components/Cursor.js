@@ -26,14 +26,14 @@ const Cursor = ({ scaling }) => {
         animate={{
           x: largecircle.x - 10,
           y: largecircle.y - 10,
-          transition: { type: "spring", mass: 3 },
+          transition: { type: "spring", mass: 2 },
         }}
         className="large_circle"
         style={{ scale: scaling ? 0.1 : 1 }}></motion.div>
       <motion.div
         animate={{
-          x: smallcircle.x - 4,
-          y: smallcircle.y - 4,
+          x: smallcircle.x - 2,
+          y: smallcircle.y - 2,
           transition: { type: "spring", mass: 2 },
         }}
         className="small_circle"></motion.div>
