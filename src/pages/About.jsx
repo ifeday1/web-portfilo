@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Ife from "../assets/ife.png";
 
 const About = () => {
 
@@ -40,6 +41,7 @@ const About = () => {
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000"
                     className='ife'>
+
 
                 </div>
                 <div>
