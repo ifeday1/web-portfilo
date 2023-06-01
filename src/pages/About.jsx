@@ -54,7 +54,7 @@ const About = () => {
                         front-end developer, I am passionate<br></br>
                         about building web based experiences.<br></br>
                         I like to build experiences that are delightful,<br></br>
-                        yet without compromising usabilty.
+                        yet without compromising usability.
                     </h1>
                     <h1
                         data-aos="fade-down-right"
@@ -174,4 +174,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
