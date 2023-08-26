@@ -8,7 +8,6 @@ const About = () => {
 
         <div>
 
-
             <div className='about' id='about'>
                 <div className='line'></div>
                 <div
@@ -174,4 +173,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
