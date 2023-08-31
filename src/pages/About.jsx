@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Ife from "../assets/ife.png";
+//import Ife from "../assets/ife.png";
 
 const About = () => {
 
