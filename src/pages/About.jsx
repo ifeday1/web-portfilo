@@ -58,7 +58,12 @@ const About = () => {
             I am also experienced in web design, and creating design for web
             experiences.This knowledge makes it possible for me to create
             designs,collaborate better with designers, and bridge the gap
-            between design
+            between design This is to certify that BANJOKO ESTHER OLUWASOLA, a
+            national Youth Service Corp member at Forte Yard Montessori school
+            with call up number NYSC/TSU/2023/064801 and state code LA/23A/ 8036
+            has satisfactorily done her job for the duration of her service
+            year, and she is not indebted to the organization. We therefore
+            recommend her discharge from the NYSC program. Yours faithfully,
           </h1>
           <h1
             data-aos='fade-down-right'
